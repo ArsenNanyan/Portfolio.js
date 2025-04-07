@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsen Nanyan Portfolio</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/f/f2/The_Athletic_favicon.png">
+    <link rel="stylesheet" href="portfoliocss.css">
+    <script defer src="portfoliojs.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Arsen Nanyan Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">🌝</button>
+    </header>
+
+    <section id="about" class="about-box">
+        <h2>About Me</h2>
+        <img src="ArsenPicture.jpg" alt="Profile Picture" width="180" style="border-radius: 50%;"><br><br>
+
+        <p><strong>Hello!</strong> I'm <strong>Arsen Nanyan</strong>, a 22-year-old programmer just starting out in the world of development. I mainly work with <strong>JavaScript</strong> and <strong>Python</strong>, and I have basic experience with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>PHP</strong>.</p>
+
+        <p>I graduated from the <strong>French University in Armenia</strong> and studied at the <strong>PhysMath School</strong>, where I developed strong analytical and problem-solving skills.</p>
+
+        <p>Currently in 2025, I am working as an intern at <strong>Optimum Partners</strong> and also gaining experience as a trainee at <strong>Converse Bank</strong>. These positions allow me to apply my knowledge and grow in real-life projects while improving my technical and teamwork abilities.</p>
+
+        <p>When I’m not coding, I love playing <strong>football</strong>, <strong>PC games</strong>, and <strong>chess</strong>. I also enjoy staying active through other sports. I’m always excited to learn new things and develop as a programmer.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <p>Project details coming soon...</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form" action="https://formspree.io/f/mwplnyzw" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Arsen Nanyan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
